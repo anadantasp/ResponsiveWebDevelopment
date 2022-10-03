@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas </title>
+    <style>
+        table{
+            border-collapse: collapse; 
+            width: 457px;
+            margin-bottom: 25px;
+            margin: auto;
+            border: 1px solid;
+        }
+
+        tbody > tr > td{
+            border-left: 1px solid red;
+        }
+
+        .fundo-azul{
+            background-color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .data-centralizada{
+            text-align: center;
+        }
+
+        tfoot{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="fundo-azul">
+                <td>Nome</td>
+                <td>Valor</td>
+                <td>Data Pagamento</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexander Gobbato</td>
+                <td>R$1,00</td>
+                <td class="data-centralizada">22/09/2022</td>
+            </tr>
+            <tr>
+                <td>Fulano 1</td>
+                <td>R$122,20</td>
+                <td class="data-centralizada">21/09/2022</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">xxx</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr class="fundo-azul">
+                <td>Nome</td>
+                <td>Valor</td>
+                <td>Data Pagamento</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexander Gobbato</td>
+                <td>R$1,00</td>
+                <td>22/09/2022</td>
+            </tr>
+            <tr>
+                <td>Fulano 1</td>
+                <td>R$122,20</td>
+                <td>21/09/2022</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">xxx</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

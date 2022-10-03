@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline;
+}
+
+p {
+    text-align: justify;
+}
+
+#topo_geral{
+    background-image: url(../img/fiap.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 250px;
+    height: 180px;
+}
+
+nav{
+    background-color: #003300;
+    color: white;
+}
+
+#principal{
+    width: 650px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,21 @@
+h2{
+    color:burlywood;
+}
+
+h1{
+    color: yellow;
+}
+
+
+/*criar um elemento de formatação por meio do ID*/
+#txtNome{
+    background-color: yellow;
+    color: red;
+}
+
+#txtLogin{
+    background-color: yellow;
+    color: red;
+}
+
+/*criar um elemento de formatação por meio do CLASS*/

@@ -1,0 +1,114 @@
+.cor-fundo{
+    background-color: #ed145b;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+    /*text-align: center;
+    padding: 25px 25px;*/
+}
+
+.section-container{
+    display: flex;
+    align-content: center;
+    /*border: 1px solid black;*/
+}
+
+article{
+    margin:auto;
+    /*border: 1px solid red;*/
+}
+
+#table{
+    margin-top: 0;
+    width: 70%;
+}
+
+#form{
+    width: 30%;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+thead tr{
+    background-color:#1e90ff;
+}
+
+#div-form{
+    width: 80%;
+    /*border: 1px solid black;*/
+}
+
+form{
+    background-color: rgb(209, 206, 206);
+    margin-left: 0;
+    width: 100%;
+    height: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    width: 60%;
+}
+
+#enviar{
+    width: 80px;
+}
+
+
+
+textarea{
+    height: 50px;
+    width: 60%;
+}
+
+tr{
+    background-color: rgb(189, 185, 185);
+    height: 50px;
+}
+
+.intervalo{
+    background-color: rgb(139, 137, 137);
+}
+
+footer{
+    margin-top: 15px;
+    height: 50px;
+    display: flex;
+    vertical-align: middle;
+    
+}
+
+footer p {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
